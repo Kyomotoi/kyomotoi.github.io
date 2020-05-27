@@ -1,5 +1,9 @@
 * About
   * [About me](about.md)
+* Language
+  * [Japan](Japan)
+    * [N5](Japan/N5)
+      * [M1](Japan/N5/m1.md)
 * Robot
   * [Nonebot](robot/nonebot.md)
 * Other
