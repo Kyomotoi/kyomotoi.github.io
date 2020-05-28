@@ -6,7 +6,7 @@
 
 ### 目录
     
-   * [N5](Japan/N5/about.md)
+   * [N5](N5/about.md)
 
    * [N4](Japan/N4/about.md)
 
