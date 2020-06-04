@@ -1,10 +1,5 @@
 * About
   * [About me](about.md)
-* Language
-  * [Japan](Japan/about.md)
-    * [N5](Japan/N5/about.md)
-      * [M1](Japan/N5/m1.md)
-      * [M2](Japan/N5/m2.md)
 * Robot
   * [Nonebot](robot/nonebot.md)
 * Aya
