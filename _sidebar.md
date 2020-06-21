@@ -1,10 +1,9 @@
 * About
   * [About me](about.md)
-* Robot
-  * [Nonebot](robot/nonebot.md)
 * Aya
   * [Changlog](robot/Changlog.md)
   * [User](robot/user.md)
+  * [Install](robot/install.md)
 * Other
   * [404 test](404.md)
 
