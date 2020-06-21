@@ -2,6 +2,7 @@
 * 本项目基于 [Nonebot](https://nonebot.cqp.moe/)，因此在尝试运行本项目之前，请先了解 Nonebot 的使用。
 * 本项目部分功能需要梯子，最好让本项目在国外的服务器上运行。
 * 本项目对python新手及其友好，初学者能看懂此源码的40%甚至全部。
+
 ```
 # 克隆代码
 git clone https://github.com/Kyomotoi/Aya.git
@@ -13,9 +14,11 @@ pip install -r requirements.txt
 python run.py (这里需求python版本为3.7.x，请勿使用3.8运行本项目)
 ```
 
+
 ### 配置
 第一次运行，请打开`AyaBot/config.py`并修改其配置:
-```
+
+```python
 #配置监听的 IP 和端口(本地)
 HOST = '127.0.0.1'
 PORT = 8080
@@ -39,6 +42,7 @@ LOLICONAPI = ""
 TX_APP_ID = ""
 TX_APPKEY = ""
 ```
+
 
 ### 关于开源
 ![](https://www.gnu.org/graphics/gplv3-88x31.png)
