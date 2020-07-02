@@ -2,6 +2,7 @@
   * [About me](about.md)
 * Aya
   * [Changlog](robot/Changlog.md)
+  * [Plan](robot/plan.md)
   * [User](robot/user.md)
   * [Install](robot/install.md)
 * Other
