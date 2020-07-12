@@ -2,6 +2,6 @@
 
 瞎写来玩玩（（ 不定期更新
 
-[go](https://lolihub.icu/#/)
+[START](https://lolihub.icu/#/)
 
 ![](image/atri.png)
