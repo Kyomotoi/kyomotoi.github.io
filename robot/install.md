@@ -5,7 +5,7 @@
 
 ```
 # 克隆代码
-git clone https://github.com/Kyomotoi/Aya.git
+git clone https://github.com/Kyomotoi/ATRI.git
 
 # 安装依赖
 pip install -r requirements.txt
