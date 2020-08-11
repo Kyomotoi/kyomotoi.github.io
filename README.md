@@ -1,3 +1,3 @@
 THIS IS A BLOG
 
-https://lolihub.icu/
+https://blog.lolihub.icu/
