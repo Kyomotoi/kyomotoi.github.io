@@ -1,10 +1,7 @@
 * About
   * [About me](about.md)
-* Aya
-  * [Changlog](robot/Changlog.md)
-  * [Plan](robot/plan.md)
-  * [User](robot/user.md)
-  * [Install](robot/install.md)
+* ATRI | アトリ
+  * [User](ATRI/user.md)
 * Other
   * [404 test](404.md)
 
