@@ -1,5 +1,7 @@
 ## ATRI | アトリ 部署教程
-此Bot的框架为 Mirai/OPQBot，启动界面均为Shell，并不存在UI一说，请根据自己能力选择部署平台。在此推荐Bot的运行环境为 Linux，如果您想部署在 Windows 也行。
+此Bot的框架为 Mirai/OPQBot，启动界面均为Shell，并不存在UI一说，请根据自己能力选择部署平台。
+
+在此推荐Bot的运行环境为 Linux，服务器地区为大陆外，防止某些功能无法正常启用。
 
 OPQBot 的部署教程日后更新
 
@@ -142,6 +144,58 @@ OPQBot 的部署教程日后更新
       wsPort: 8080
   ```
   请将开头的`123456789`改为您Bot的QQ号。
+  
+  打开Bot目录下的config：
+  ```
+  #配置监听的 IP 和 端口
+  HOST = '127.0.0.1'
+  PORT = 8080
+
+  # 机器人的主人（QQ号）即 超级用户
+  SUPERUSERS = [123456789]
+  def MASTER():
+      return 123456789
+
+  # 机器人名称，替代 @ 和 命令开头
+  NICKNAME = {'ATRI'}
+
+  # 自定义命令开头
+  COMMAND_START = {''}
+
+  BANGROUP = []
+
+  # API url:https://api.lolicon.app/#/setu
+  def LOLICONAPI():
+      return ""
+
+  # API url:https://api-cn.faceplusplus.com/
+  def FACE_KEY():
+      return ""
+
+  def FACE_SECRET():
+      return ""
+  ```
+  以上信息请务必补充完毕！
+  
+  打开Cmd，cd进Bot根目录，键入以下内容：
+  ```
+  python -3.8 -m pip install -r requirements.txt
+  python BOT.py
+  ```
+  同时启动MiraiOK
+  
+  当你的Shell界面出现以下内容：
+  ```
+  [2020-08-14 22:39:03,985] INFO in __init__: received event: meta_event.lifecycle.connect
+  ```
+  则说明Bot已成功部署！
+  
+  至此，您已经完成主要的部署步骤。
+  
+  **Linux用户**
+  
+  直接：鸽了，明天更
+  
   
   
 
