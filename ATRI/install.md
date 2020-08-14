@@ -30,15 +30,12 @@ Stp.1
   Linux 用户：
     - 请继续往下阅读
   
-  对于 Python3.8 安装：
-  
+  对于 Python3.8 安装
     以root用户或具有sudo访问权限的用户身份运行以下命令，以更新软件包列表并安装必备组件：
       - sudo apt update
       - sudo apt install software-properties-common
-    
     将deadsnakes PPA添加到系统的来源列表中：
       - sudo add-apt-repository ppa:deadsnakes/ppa
-    
     出现提示时，按Enter继续：
     ```
     The package sources are available at:
@@ -46,12 +43,10 @@ Stp.1
     更多信息： https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa
     按 [ENTER] 继续或 Ctrl-c 取消安装。
     ```
-    
     启用存储库后，请使用以下命令安装Python 3.8：
       - sudo apt install python3.8
-    
     通过键入以下命令验证安装是否成功：
-      - python -V
-    
+      - python3.8 -V
     如提示关键词中带`Python3.8.x`字样，则说明安装成功，输入`exit()`以回到 Shell 界面。
+    
   
