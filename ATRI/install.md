@@ -5,40 +5,40 @@ OPQBot 的部署教程日后更新
 
 ### Stp.1 
   请安装以下必要软件/工具：
-    - Python3.8: <https://www.python.org/downloads/>
-    - Git：<https://git-scm.com/download/win> （Linux用户无需安装）
-    - Mirai download: （本库文件夹内带Mirai一键包，根据你的系统打开即可）
-    - CQHTTPMirai: <https://github.com/yyuueexxiinngg/cqhttp-mirai/releases>
-    - Bot本体: <https://github.com/Kyomotoi/ATRI>
+  - Python3.8: <https://www.python.org/downloads/>
+  - Git：<https://git-scm.com/download/win> （Linux用户无需安装）
+  - Mirai download: （本库文件夹内带Mirai一键包，根据你的系统打开即可）
+  - CQHTTPMirai: <https://github.com/yyuueexxiinngg/cqhttp-mirai/releases>
+  - Bot本体: <https://github.com/Kyomotoi/ATRI>
 
   如您是 Windows 用户，推荐安装此开发工具：<https://code.visualstudio.com/>
   如您部署Bot所在的环境由于配置的限制，推荐使用这个（Notepad++）：<https://notepad-plus-plus.org/downloads/>
 
   VisualStudio Code 一些必装的模块：
-    - Chinese
-    - Python
+  - Chinese
+  - Python
 
   在Linux系统中，安装Python难免会遇到一些困难：
-    - Python3.8 版本难以直接安装
-    - pip 指向版本为 Python3.6
-    - Python 中一些库，例如：dlib难以直接安装
+  - Python3.8 版本难以直接安装
+  - pip 指向版本为 Python3.6
+  - Python 中一些库，例如：dlib难以直接安装
   
   此教程中会专门针对这些困难作出教程，以帮助入门者成功部署本Bot。
   
   Windows 用户：
-    - 请跳过此，直至`Stp.2`
+  - 请跳过此，直至`Stp.2`
   
   Linux 用户：
-    - 请继续往下阅读
+  - 请继续往下阅读
   
   **关于 Python3.8 安装在 Linux 上**
   
   以root用户或具有sudo访问权限的用户身份运行以下命令，以更新软件包列表并安装必备组件：
-    - sudo apt update
-    - sudo apt install software-properties-common
+  - sudo apt update
+  - sudo apt install software-properties-common
   
   将deadsnakes PPA添加到系统的来源列表中：
-    - sudo add-apt-repository ppa:deadsnakes/ppa
+  - sudo add-apt-repository ppa:deadsnakes/ppa
   
   出现提示时，按Enter继续：
   ```
@@ -49,10 +49,10 @@ OPQBot 的部署教程日后更新
   ```
   
   启用存储库后，请使用以下命令安装Python 3.8：
-    - sudo apt install python3.8
+  - sudo apt install python3.8
   
   通过键入以下命令验证安装是否成功：
-    - python3.8 -V
+  - python3.8 -V
   
   如提示关键词中带`Python3.8.x`字样，则说明安装成功，输入`exit()`以回到 Shell 界面。
   
@@ -70,8 +70,9 @@ OPQBot 的部署教程日后更新
   **Windows 用户**
   
   打开新鲜出炉的 Git，并输入以下指令：
-    - git clone https://github.com/Kyomotoi/ATRI
-  静坐等候即刻
+  - git clone https://github.com/Kyomotoi/ATRI
+  
+  静坐等候即可
   
   选择一个风水极好的文件夹，最好全英文，将 Git clone 下来的东西解压至此文件夹
   
