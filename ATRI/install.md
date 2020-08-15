@@ -5,6 +5,13 @@
 
 OPQBot 的部署教程日后更新
 
+我没有义务回答你的问题，因为_____________________
+
+如在部署中遇到困难，您可以选择：
+  - 给我买[三杯红茶](https://afdian.net/@Kyomotoi)，然后我帮你部署
+  - 加好友1r
+  - 一个问题3r
+
 ### Stp.1 
 请安装以下必要软件/工具：
   - Python3.8: <https://www.python.org/downloads/>
@@ -75,7 +82,11 @@ Linux 用户：
 打开新鲜出炉的 Git，并输入以下指令：
 - git clone https://github.com/Kyomotoi/ATRI
 
-静坐等候即可
+如您的下载速度过于缓慢，请自备木弟子，或者根据我的建议：将Bot部署在大陆以外的地区。
+
+别跟我说啥您不会用Git，都2020年了兄弟，百度、bing、搜狗、360搜索这几个搜索引擎你总该会用吧！
+
+然后，静坐等候即可
 
 选择一个风水极好的文件夹，最好全英文，将 Git clone 下来的东西解压至此文件夹
 
@@ -164,14 +175,16 @@ COMMAND_START = {''}
 
 BANGROUP = []
 
-# API url:https://api.lolicon.app/#/setu
+# API 申请url:https://api.lolicon.app/#/setu
 def LOLICONAPI():
     return ""
 
-# API url:https://api-cn.faceplusplus.com/
+# API 申请url:https://api-cn.faceplusplus.com/
+FACE_KEY = ""
 def FACE_KEY():
     return ""
 
+FACE_SECRET = ""
 def FACE_SECRET():
     return ""
 ```
@@ -192,15 +205,56 @@ python BOT.py
 
 至此，您已经完成主要的部署步骤。
 
+如您的Shell界面出现类似无法找到Python的提示，请自行百度解决！
+
+如启动过程中出现报错，请翻译相关关键词，然后百度！
+
+如您还是不会部署，请回到最顶端，选择适合您的问题解决方案！
+
 **Linux用户**
 
-直接：鸽了，明天更
+在此之前请百度：Linux screen
 
+并熟悉如何使用，在此之后，您可以继续下一步
 
-  
+1.
+打开控制台，cd到一个风水极好的文件夹，最好全英文，键入：
+```
+git clone https://github.com/Kyomotoi/ATRI
+```
+如您的下载速度过于缓慢，请自备木弟子，或者根据我的建议：将Bot部署在大陆以外的地区。
 
+使用ls查看您clone下来的仓库，并cd进去：
+```
+vi config.py
+```
+然后键盘上按下`i`，将必要信息填写后在键盘上按下`Esc`再按下`:`输入`wq`即可
 
+screen创建一个新的会话，并进入
 
+键入：
+```
+python3.8 BOT.py
+```
 
+当正常运行后退出此会话窗口，另开一个新窗口
 
-  
+cd到Mirai所在目录，重命名`miraiOK_linux_amd64`为`miraiok`
+
+然后输入：
+```
+chmod +x miraiok ./miraiok
+```
+根据提示步骤登陆QQ即可。
+
+当运行BOT的会话出现：
+```
+[2020-08-14 22:39:03,985] INFO in __init__: received event: meta_event.lifecycle.connect
+```
+至此，您已经完成部署！
+
+如您的Shell界面出现类似无法找到Python的提示，请自行百度解决！
+
+如启动过程中出现报错，请翻译相关关键词，然后百度！
+
+如您还是不会部署，请回到最顶端，选择适合您的问题解决方案！
