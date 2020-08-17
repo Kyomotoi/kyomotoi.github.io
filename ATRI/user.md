@@ -39,17 +39,17 @@ ATRI 的功能以 ATRI 厨为核心，力争还原一个真实存在的 ATRI 。
 
 由于 ATRI 功能繁多，故在此提供关闭功能的通道。此功能仅`主人`可触发：
 ```
-开启 （功能名）
-关闭 （功能名）
+on （功能名）
+off （功能名）
 ```
 各个可控制功能名称：
-- P站搜图
-- 画师
-- P站排行榜
-- 好友添加
-- 群邀请
-- 涩图
-- 本子
+- PixivSearchIMG （P站搜图）
+- PixivSearchAuthor （画师）
+- PixivRank （P站排行榜）
+- FriendADD （好友添加请求）
+- GroupInvite （群邀请请求）
+- Setu （涩图）
+- Hbook （本子）
 
 
 
