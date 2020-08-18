@@ -50,6 +50,7 @@ off （功能名）
 - GroupInvite （群邀请请求）
 - Setu （涩图）
 - Hbook （本子）
+- AIchFace （AI换脸）
 
 
 
