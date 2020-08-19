@@ -16,7 +16,7 @@ OPQBot 的部署教程日后更新
 请安装以下必要软件/工具：
   - Python3.8: <https://www.python.org/downloads/>
   - Git：<https://git-scm.com/download/win> （Linux用户无需安装）
-  - Mirai download: （本库内带Mirai一键包，根据系统打开即可）
+  - Mirai download: https://github.com/LXY1226/MiraiOK （根据自己系统选择）
   - CQHTTPMirai: <https://github.com/yyuueexxiinngg/cqhttp-mirai/releases>
   - Bot本体: <https://github.com/Kyomotoi/ATRI>
 
