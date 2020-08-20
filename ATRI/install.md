@@ -168,25 +168,36 @@ def MASTER():
     return 123456789
 
 # 机器人名称，替代 @ 和 命令开头
-NICKNAME = {'ATRI'}
+NICKNAME = {'ATRI', '亚托莉', 'アトリ'}
 
 # 自定义命令开头
 COMMAND_START = {''}
 
-BANGROUP = []
-
-# API 申请url:https://api.lolicon.app/#/setu
+# API url:https://api.lolicon.app/#/setu
+a = "" # key
 def LOLICONAPI():
-    return ""
+    return a
 
-# API 申请url:https://api-cn.faceplusplus.com/
-FACE_KEY = ""
+# API url:https://www.faceplusplus.com.cn/
+b = ""
 def FACE_KEY():
-    return ""
+    return b
 
-FACE_SECRET = ""
+c = ""
 def FACE_SECRET():
-    return ""
+    return c
+
+# API url:https://cloud.baidu.com/
+def BAIDU_APP_ID():
+    return 123 # id
+
+d = "" # key
+def BAIDU_API_KEY():
+    return d
+
+e = "" # secret
+def BAIDU_SECRET():
+    return e
 ```
 以上信息请务必补充完毕！
 
