@@ -203,7 +203,7 @@ def BAIDU_SECRET():
 
 打开Cmd，cd进Bot根目录，键入以下内容：
 ```
-python -3.8 -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python BOT.py
 ```
 同时启动MiraiOK
