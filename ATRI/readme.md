@@ -1,4 +1,5 @@
 # ATRI——一个厨力项目
+アトリは、高性能ですから！
 ## 关于
 本项目名称、灵感均来自 [ANIPLEX](https://aniplex-exe.com/) 发行的 [ATRI-My Dear Moments-](https://atri-mdm.com/)
 
@@ -44,5 +45,3 @@
 
 ## 关于开源
 本项目使用 [GPLv3](https://github.com/Kyomotoi/Aya/blob/master/LICENSE) 开源协议，这意味着你可以使用本项目运行你的机器人，并向你的用户提供服务，但如果你需要对项目的源码进行修改，则必须将你修改后的版本对你的用户开源。
-
-由于本项目的特殊性，本项目的源码中出现在 NoneBot 文档的部分（例如作为其示例代码），不使用 AGPLv3 许可，而使用和 NoneBot 一样的 MIT 许可。
