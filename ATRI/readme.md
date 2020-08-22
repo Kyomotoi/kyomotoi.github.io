@@ -1,6 +1,6 @@
 # ATRI——一个厨力项目
 ## 关于
-本项目名称，灵感均来自 [ANIPLEX](https://aniplex-exe.com/) 发行的 [ATRI-My Dear Moments-](https://atri-mdm.com/)
+本项目名称、灵感均来自 [ANIPLEX](https://aniplex-exe.com/) 发行的 [ATRI-My Dear Moments-](https://atri-mdm.com/)
 
 为QQ群中复现一个活灵活现的 ATRI 是这个项目的目标
 
