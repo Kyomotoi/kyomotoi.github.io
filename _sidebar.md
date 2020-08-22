@@ -1,6 +1,7 @@
 * About
   * [About me](about.md)
 * ATRI | アトリ
+  * [About](ATRI/readme.md)
   * [User](ATRI/user.md)
   * [Install](ATRI/install.md)
 * Other
