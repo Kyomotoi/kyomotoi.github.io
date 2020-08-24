@@ -1,11 +1,15 @@
 ## ATRI | アトリ 部署教程
 此Bot的框架为 Mirai/OPQBot，启动界面均为Shell，并不存在UI一说，请根据自己能力选择部署平台。
 
-在此推荐Bot的运行环境为 Linux，服务器地区为大陆外，防止某些功能无法正常启用。
+在此推荐Bot的运行环境为 Linux，便宜好用实惠！
 
-OPQBot 的部署教程日后更新
+~~OPQBot 的部署教程日后更新（暂时弃坑，随缘更新）~~
 
-我没有义务回答你的问题，因为_____________________
+此项目不建议编程白痴进行部署。
+
+此项目谢绝一切不会百度的人士。
+
+此外，我没有义务回答你的问题，因为_____________________
 
 如在部署中遇到困难，您可以选择：
   - 给我买[三杯红茶](https://afdian.net/@Kyomotoi)，然后我帮你部署
@@ -16,8 +20,7 @@ OPQBot 的部署教程日后更新
 请安装以下必要软件/工具：
   - Python3.8: <https://www.python.org/downloads/>
   - Git：<https://git-scm.com/download/win> （Linux用户无需安装）
-  - Mirai download: https://github.com/LXY1226/MiraiOK （根据自己系统选择）
-  - CQHTTPMirai: <https://github.com/yyuueexxiinngg/cqhttp-mirai/releases>
+  - go-cqhttp: <https://github.com/Mrs4s/go-cqhttp/releases> 
   - Bot本体: <https://github.com/Kyomotoi/ATRI>
 
 如您是 Windows 用户，推荐安装此开发工具：<https://code.visualstudio.com/>
@@ -88,73 +91,7 @@ Linux 用户：
 
 然后，静坐等候即可
 
-选择一个风水极好的文件夹，最好全英文，将 Git clone 下来的东西解压至此文件夹
-
-打开文件夹中的`Mirai/windows`，并双击运行`miraiOK_windows_amd64.exe`，等正常开启并需要您登陆QQ账号后，关掉，将所下载的`CQHTTPMirai`拖入生成的`plugins`中。再次开启，   待出现`成功加载插件`类似字样后，关掉，打开所生成的配置文件，将以下内容复制进`setting.yml`：
-```
-# Debug日志输出选项
-debug: true
-# 要进行配置的QQ号 (Mirai支持多帐号登录, 故需要对每个帐号进行单独设置)
-'123456789':
-  # HTTP 相关配置
-  http:
-    # 可选，是否启用HTTP API服务器, 默认为不启用, 此项开始与否跟postUrl无关
-    enable: false
-    # 可选，HTTP API服务器监听地址, 默认为0.0.0.0
-    host: 127.0.0.1
-    # 可选，HTTP API服务器监听端口, 5700
-    port: 5700
-    # 可选，访问口令, 默认为空, 即不设置Token
-    accessToken: ""
-    # 可选，事件及数据上报URL, 默认为空, 即不上报
-    postUrl: ""
-    # 可选，上报消息格式，string 为字符串格式，array 为数组格式, 默认为string
-    postMessageFormat: string
-    # 可选，上报数据签名密钥, 默认为空
-    secret: ""
-  # 可选，反向客户端服务
-  ws_reverse:
-    # 可选，是否启用反向客户端，默认不启用
-    - enable: true
-      # 上报消息格式，string 为字符串格式，array 为数组格式
-      postMessageFormat: string
-      # 反向Websocket主机
-      reverseHost: 127.0.0.1
-      # 反向Websocket端口
-      reversePort: 8080
-      # 访问口令, 默认为空, 即不设置Token
-      accessToken: ""
-      # 反向Websocket路径
-      reversePath: /ws
-      # 可选, 反向Websocket Api路径, 默认为reversePath
-      reverseApiPath: /api
-      # 可选, 反向Websocket Event路径, 默认为reversePath
-      reverseEventPath: /event
-      # 是否使用Universal客户端 默认为true
-      useUniversal: true
-      # 反向 WebSocket 客户端断线重连间隔，单位毫秒
-      reconnectInterval: 3000
-    - enable: false # 这里是第二个连接, 相当于CQHTTP分身版
-      postMessageFormat: string
-      reverseHost: 127.0.0.1
-      reversePort: 9222
-      reversePath: /ws
-      useUniversal: false
-      reconnectInterval: 3000
-  # 可选，正向Websocket服务器
-  ws:
-    # 可选，是否启用正向Websocket服务器，默认不启用
-    enable: false
-    # 可选，上报消息格式，string 为字符串格式，array 为数组格式, 默认为string
-    postMessageFormat: string
-    # 可选，访问口令, 默认为空, 即不设置Token
-    accessToken: ""
-    # 监听主机
-    wsHost: "127.0.0.1"
-    # 监听端口
-    wsPort: 8080
-```
-请将开头的`123456789`改为您Bot的QQ号。
+解压所下载的 go-cqhttp 并放到一个您认为风水极好的文件夹，并根据其仓库的README进行配置。
 
 打开Bot目录下的config：
 ```
@@ -179,17 +116,17 @@ def LOLICONAPI():
     return a
 
 # API url:https://www.faceplusplus.com.cn/
-b = ""
+b = "" # key
 def FACE_KEY():
     return b
 
-c = ""
+c = "" # secret
 def FACE_SECRET():
     return c
 
 # API url:https://cloud.baidu.com/
 def BAIDU_APP_ID():
-    return 123 # id
+    return 123456 # id
 
 d = "" # key
 def BAIDU_API_KEY():
@@ -270,5 +207,3 @@ chmod +x miraiok ./miraiok
 如您还是不会部署，请回到最顶端，选择适合您的问题解决方案！
 
 最后，务必加入官方讨论群：567297659
-
-所有新功能的预告都在此放出，最后感谢您选择ATRI！
