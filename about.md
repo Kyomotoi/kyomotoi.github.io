@@ -4,24 +4,23 @@
 
 - 网名：怎么叫都阔以w
 
-- 位置：蟠龙山jio低
+- 位置：你家门口
 
-- 名言：咕咕咕咕咕咕咕咕咕
+- 名言：？
 
 ### 联系方式
 
-- QQ:1172294279
+- QQ: 1172294279
 
-- Github:Kyomotoi
+- Github: [Kyomotoi](https://github.com/Kyomotoi)
 
-- Email:1172294279@qq.com
+- Email: kyomotoiowo@gmail.com
 
-- Twitter:@Kyomotoi1
+- Twitter: [@Kyomotoi1](https://twitter.com/Kyomotoi1)
 
-- Telegram:Kyomotoi owo
+- Telegram: [Kyomotoi owo](https://t.me/kyomotoi)
 
 ### 其他
+Github小卡片（
 
-写博客没别的，就硬瞎写
-
-另：自己开了个Minecraft服务器 >>> [传送门](https://kyomotoi.github.io/wiki/#/)
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=kyomotoi)](https://github.com/anuraghazra/github-readme-stats)
