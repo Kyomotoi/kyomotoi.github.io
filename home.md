@@ -1,4 +1,4 @@
-![Kyomotoi](https://count.getloli.com/get/@:kyomotoi?theme=rule34)
+![Kyomotoiblog](https://count.getloli.com/get/@:kyomotoiblog?theme=rule34)
 
 はずめましで　私はKyomotoi
 
