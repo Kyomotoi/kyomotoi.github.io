@@ -2,7 +2,6 @@
   * [About me](about.md)
 * Projects
   * [ATRI](https://kyomotoi.github.io/ATRI/#)
-
 * Other
   * [404 test](404.md)
 
