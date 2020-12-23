@@ -1,9 +1,8 @@
 * About
   * [About me](about.md)
-* ATRI | アトリ
-  * [About](ATRI/readme.md)
-  * [User](ATRI/user.md)
-  * [Install](ATRI/install.md)
+* Projects
+  * [ATRI](https://kyomotoi.github.io/ATRI/#)
+
 * Other
   * [404 test](404.md)
 
