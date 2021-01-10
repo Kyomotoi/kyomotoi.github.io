@@ -7,7 +7,7 @@ body {
   font-family: "Iosevka";
   line-height: 1.725;
   text-rendering: geometricPrecision;
-  height: 100%;
+  height: auto;
   margin: 0;
   overscroll-behavior: none;
 }
@@ -19,6 +19,7 @@ body::before {
   bottom: 0;
   opacity: 0.08;
   position: fixed;
+  background: center/cover no-repeat;
   background-image: url("https://i.loli.net/2021/01/10/b5NE968t7Bnw1xe.jpg");
   z-index: -1;
   pointer-events: none;
