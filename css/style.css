@@ -11,18 +11,18 @@ body {
   margin: 0;
   overscroll-behavior: none;
 }
-body::before {
-  content: '';
-  top: 0;
-  left: 0;
+video#bgvideo {
+  position: fixed;
   right: 0;
   bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
   opacity: 0.08;
-  position: fixed;
-  background: center/cover no-repeat;
-  background-image: url("https://i.loli.net/2021/01/10/b5NE968t7Bnw1xe.jpg");
-  z-index: -1;
-  pointer-events: none;
+  background: url("https://cdn.jsdelivr.net/gh/Kyomotoi/CDN@master/blog/img/neko.jpg") no-repeat;
+  background-size: cover;
 }
 a {
   color: #d2d2d2;
