@@ -1,138 +1,290 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="renderer" content="webkit">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>
-        ?
-    </title>
-    
-<link rel="stylesheet" href="/libs/highlight/styles/monokai-sublime.css">
 
-    
-<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+  <!-- Minima -->
+  <!-- Hexo theme created by @adisaktijrs -->
 
-    
-<link rel="stylesheet" href="/libs/iosevka/iosevka.css">
- 
-    
-<link rel="stylesheet" href="/css/style.css">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+
+  
+  <title>All Posts - Kyomotoi</title>
+  
+  <link rel="canonical" href="https://pro.kyomotoi.moe/archives/2021/">
+  
+  <meta name="description" content="A simple blog">
+  
+  
+  <meta name="author" content="Kyomotoi">
+  
+  <meta property="og:image" content="https://pro.kyomotoi.moe/images/thumbnail.jpg">
+  
+  <meta property="og:site_name" content="Kimo!!!" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="All Posts - Kyomotoi" />
+  
+  <meta property="og:description" content="A simple blog">
+  
+  <meta property="og:url" content="https://pro.kyomotoi.moe/archives/2021/" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="All Posts - Kyomotoi">
+  
+  <meta name="twitter:description" content="A simple blog">
+  
+  
+  <meta name="twitter:image" content="https://pro.kyomotoi.moe/images/thumbnail.jpg">
+  
+  <meta name="twitter:url" content="https://pro.kyomotoi.moe/archives/2021/" />
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Preload fonts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="preload" href="../fonts/dm-serif-display-v4-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/inter-v2-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+<link rel="stylesheet" href="/css/normalize.css">
+
+  
+<link rel="stylesheet" href="/css/skeleton.css">
+
+  
+<link rel="stylesheet" href="/css/custom.css">
+
+  
+<link rel="stylesheet" href="/css/prism-dark.css">
+
+  
+<link rel="stylesheet" href="/css/prism-line-numbers.css">
+
+  <!-- User css -->
+  
+  
+<link rel="stylesheet" href="/css/user.css">
+
+  
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+
+  <!-- Custom Theme Color Style
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <style>
+  a:not(.icon) {
+    text-decoration-color: #0FA0CE;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      #0FA0CE 50%
+    );
+  }
+  blockquote {
+    border-left: 8px solid #0FA0CE;
+  }
+  .nanobar .bar {
+    background: #0FA0CE;
+  }
+  .button.button-primary:hover,
+  button.button-primary:hover,
+  input[type="submit"].button-primary:hover,
+  input[type="reset"].button-primary:hover,
+  input[type="button"].button-primary:hover,
+  .button.button-primary:focus,
+  button.button-primary:focus,
+  input[type="submit"].button-primary:focus,
+  input[type="reset"].button-primary:focus,
+  input[type="button"].button-primary:focus {
+    background-color: #0FA0CE;
+    border-color: #0FA0CE;
+  }
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="search"]:focus,
+  input[type="text"]:focus,
+  input[type="tel"]:focus,
+  input[type="url"]:focus,
+  input[type="password"]:focus,
+  textarea:focus,
+  select:focus {
+    border: 1px solid #0FA0CE;
+  }
+</style>
+
+  <!-- Google Analytics (With Privacy Settings On)
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
 
 <meta name="generator" content="Hexo 5.3.0"></head>
 
-<body id="bodyx">
-    <div class="hd logodiv">
-    <img src="https://count.getloli.com/get/@:kyomotoiblog" alt=":kyomotoiblog" />
-    <p class="logot"><span class="logo_1">&lt;</span><span class="logo_2">/</span><span class="logo_3">#</span> 废柴萝卜子 <span class="logo_3">#</span><span class="logo_2">/</span><span class="logo_1">&gt;</span></p>
-    <video autoplay loop poster="//cdn.jsdelivr.net/gh/Kyomotoi/CDN@master/blog/img/neko.jpg" id="bgvideo">
-        <source src="//cdn.jsdelivr.net/gh/Kyomotoi/CDN@master/blog/img/neko.webm" type="video/webm">
-        <source src="//cdn.jsdelivr.net/gh/Kyomotoi/CDN@master/blog/img/neko.mp4" type="video/mp4">
-    </video>
+<body>
+  <div class="container">
+    <div class="row">
+      <div>
+
+        <div class="row">
+  <div class="two columns" style="max-width: 50px">
+    <h1 class="mt-2 mode">
+      <div onclick=setDarkMode(true) id="darkBtn">🌑</div>
+      <div onclick=setDarkMode(false) id="lightBtn" class=hidden>☀️</div>
+      <script >
+        if (localStorage.getItem('preferredTheme') == 'dark') {
+          setDarkMode(true)
+        }
+        function setDarkMode(isDark) {
+          var darkBtn = document.getElementById('darkBtn')
+          var lightBtn = document.getElementById('lightBtn')
+          if (isDark) {
+            lightBtn.style.display = "block"
+            darkBtn.style.display = "none"
+            localStorage.setItem('preferredTheme', 'dark');
+          } else {
+            lightBtn.style.display = "none"
+            darkBtn.style.display = "block"
+            localStorage.removeItem('preferredTheme');
+          }
+          document.body.classList.toggle("darkmode");
+        }
+      </script>
+    </h1>
+  </div>
+
+  <div class="six columns ml-1">
+    <h1 class="mt-2">
+      Hi there.
+    </h1>
+  </div>
+
+  <div class="twelve columns">
+    <div class="row">
+      <div class="nine columns left">
+        <a href="/">Home</a>
+        
+          
+          <a href="/about" class="ml">About</a>
+          
+        
+          
+          <a href="/link" class="ml">Links</a>
+          
+        
+          
+          <a href="/archives" class="ml">Archives</a>
+          
+        
+        
+      </div>
+    </div>
+    <hr style="margin-bottom: 2.6rem">
+  </div>
 </div>
 
-<div class="hd">
-    <ol class="breadcrumb">
-        
-            <li><a class="ba" href="/about">关于</a></li>
-        
-            <li><a class="ba" target="_blank" rel="noopener" href="https://github.com/Kyomotoi">Github</a></li>
-        
-    </ol>
-    <hr class="breadcrumbhr">
-</div>
-<div class="hd">
-    
-    
-        
-        
-            <div class="titlex">
-                <p><span class="jing">#</span>
-                    2021
-                </p>
-            </div>
+        <div class="trans">
+          
+<h2>All Posts</h2>
+
+
+    <article>
+      <div class="row">
+
+        <div class="three columns left lit">
+          <p class="bottom">Aug 18, 2021</p>
+        </div>
+        <div class="nine columns left mb-3">
+          <a href="/2021/08/18/copilot-exp/" class="">
             
-        
-        <a class="flink" href="/2021/01/16/NTFS-test/">
-            <div class="list">
-                <div class="postname">
-                    NTFS 漏洞测试
-                </div>
-                <div class="posttime">
-                    January 16th
-                </div>
-            </div>
-        </a>
+              Copilot 使用感受
+            
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article>
+      <div class="row">
+
+        <div class="three columns left lit">
+          <p class="bottom">Jan 16, 2021</p>
+        </div>
+        <div class="nine columns left mb-3">
+          <a href="/2021/01/16/NTFS-test/" class="">
+            
+              NTFS 漏洞测试
+            
+          </a>
+        </div>
+      </div>
+    </article>
+
+<div class="pagination-bar">
+  <ul class="pagination">
     
-        
-        
-        <a class="flink" href="/2021/01/10/hello-world/">
-            <div class="list">
-                <div class="postname">
-                    Hello World
-                </div>
-                <div class="posttime">
-                    January 10th
-                </div>
-            </div>
-        </a>
     
+  </ul>
 </div>
-    <div class="footer" id="footer">
-    <p>Copyright © 2021 <a class="flink" target="_blank" rel="noopener" href="https://blog.kyomotoi.moe">废柴萝卜子</a>
-        <label class="el-switch el-switch-green el-switch-sm" style="vertical-align: sub;">
-            <input type="checkbox" name="switch" id="update_style">
-            <span class="el-switch-style"></span>
-        </label>
-        <br>
-        Made with <i class="fa fa-heart throb"style="color:#d43f57"></i> by <a class="flink" target="_blank" rel="noopener" href="https://github.com/Kyomotoi">Kyomotoi</a>
-        </br>
-        <a href="https://icp.gov.moe" target="_blank">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20210721" target="_blank"> 20210721号</a>
-<!--         <script type="text/javascript">
-        var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
-        document.write(unescape("%3Cspan id='cnzz_stat_icon_1278548644'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/stat.php%3Fid%3D1278548644%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
-        </script> -->
-    </p>
+
+
+          
+<div class="row mt-2">
+  
+  
+    <div class="eight columns">
+      <p id="madewith">Made with ❤ by 
+        
+        <a href="https://kyomotoi.moe/" target="_blank" rel="noreferrer">Kyomotoi</a>. </p>
+        
+    </div>
+
+    <!-- Sepcial thanks to https://simpleicons.org/ for the icons -->
+    <div class="four columns mb-3 posisi" >
+      
+      <a class="ml-0 footer-link icon" href="https://github.com/Kyomotoi" target="_blank" style="text-decoration: none" rel="noreferrer" aria-label="GitHub">
+        <svg class="github svg-hov" width="18" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+      </a>
+      
+
+      
+
+      
+      <a class="ml-0 footer-link icon" href="https://twitter.com/Kyomotoi327" target="_blank" style="text-decoration: none" rel="noreferrer" aria-label="Twitter">
+        <svg class="twitter svg-hov" width="18" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+      </a>
+      
+
+      
+
+      
+
+    </div>
+  
 </div>
-<input type="hidden" id="web_style" value="black">
-<input type="hidden" id="valine_appid" value="CmCti21ooOOIzFOhEyFkFvR0-gzGzoHsz">
-<input type="hidden" id="valine_appKey" value="FqiyUqbg7McKN2eG0MCewupf">
 
-<script src="//cdn.jsdelivr.net/gh/Kyomotoi/CDN@master/blog/libs/jquery.min.js"></script>
+        </div>
+      </div>
 
+    </div>
 
-<script src="/libs/highlight/highlight.pack.js"></script>
-
-<script src='//cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js'></script>
-
-<script src="//cdn.jsdelivr.net/gh/Kyomotoi/CDN@master/blog/js/js.js"></script>
-
-<style type="text/css">
-.v * {
-    color: #698fca;
-}
-
-.v .vlist .vcard .vhead .vsys {
-    color: #3a3e4a;
-}
-
-.v .vlist .vcard .vh .vmeta .vat {
-    color: #638fd5;
-}
-
-.v .vlist .vcard .vhead .vnick {
-    color: #6ba1ff;
-}
-
-.v a {
-    color: #8696b1;
-}
-
-.v .vlist .vcard .vhead .vnick:hover {
-    color: #669bfc;
-}
-</style>
+  </div>
+  <script src="/js/nanobar.min.js"></script>
+  <script>
+    var options = {
+      classname: 'nanobar',
+      id: 'myNanobar'
+    };
+    var nanobar = new Nanobar(options);
+    nanobar.go(30);
+    nanobar.go(76);
+    nanobar.go(100);
+  </script>
 
 </body>
 
